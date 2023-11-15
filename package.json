@@ -11,9 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "sass scss/style.scss:build/style.css && cp index.html build/"
+    "build": "sass scss/main.scss:build/style.css && cp index.html build/"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ionut1oo/MoGo.git"
