@@ -1,0 +1,23 @@
+{
+  "name": "mogo",
+  "version": "1.0.0",
+  "description": "MoGo a clone of a website",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionut1oo/MoGo.git"
+  },
+  "author": "Ionut Ciornei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ionut1oo/MoGo/issues"
+  },
+  "homepage": "https://github.com/ionut1oo/MoGo.git"
+}
