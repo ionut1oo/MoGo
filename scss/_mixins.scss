@@ -1,0 +1,41 @@
+@mixin header {
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+@mixin decoration {
+   text-decoration-color: #ffb936;
+   text-decoration-thickness: 2px;
+   text-underline-offset: 10px;
+}
+
+@mixin nav {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+     }
+     
+     @mixin logo {
+        grid-column: 1;
+     }
+     
+     @mixin list {
+        display: grid;
+        grid-auto-flow: column;
+        gap: 10px;
+     }
+
+     @mixin services-title {
+      display: grid;
+      justify-content: center;
+     }
+
+     @mixin services-list {
+      display: grid;
+      grid-template-columns: repeat(3, 300px);
+      justify-content: center;
+      gap: 75px;
+     }
+
+     
