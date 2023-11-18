@@ -1,11 +1,12 @@
+
 @import './variables';
 @import './reset';
 @import './mixins';
 
 .header {
-    background: $gradient, url(../images/eagle.jpg);
-    @include header;
-    padding: 20px;
+  background: $gradient, url('../images/eagle.jpg');
+  @include header;
+  padding: 20px;
 }
 
 .header__nav {

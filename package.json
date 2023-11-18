@@ -4,14 +4,17 @@
   "description": "MoGo a clone of a website",
   "main": "index.js",
   "dependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.0.0",
+    "sass": "^1.69.5"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "sass scss/main.scss:build/style.css && cp index.html build/"
+    "build": "npm run compile-sass && npm run copy-html",
+    "compile-sass": "sass scss/main.scss:build/style.css",
+    "copy-html": "powershell -ExecutionPolicy Bypass -File \"D:\\spatiu de lucru\\MoGo\\scripts\\copy-html.ps1\""
   },
   "repository": {
     "type": "git",
